@@ -1,0 +1,156 @@
+html, body, div, span, 
+applet, object, iframe, 
+h1, h2, h3, form {
+	margin: 0px;
+	padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  border-color: #ccc;
+  border-style: solid;
+	font: inherit;
+}
+a{
+	color: inherit;
+  text-decoration: none;
+}
+ol, ul {
+	list-style: none;
+}
+
+a:hover {
+	color:#a7d9fd
+}
+:root {
+  background: #F3F3F3;
+}
+#content {
+	background: #F3F3F3;
+	font-family: Helvatica, Arial, sans-serif;
+}
+#nav_header {
+	font-family: Helvatica, Arial, sans-serif;
+}
+#navigation {
+	box-sizing: border-box;
+	padding: 8px 40px;
+	background-color: #121212;
+	color: white;
+}
+#separator {
+	height: 2px;
+	background-color: #a7d9fd;
+}
+#wrapper {
+	width: auto;
+}
+#search {
+	width: calc(100% - 637px);
+  min-width: 208px;
+  position: relative;
+}
+#primary_search_box {
+	outline: none;
+	padding: 1px;
+	border : 0;
+	background-color: transparent;
+	width:100%;
+	font-size: 15px
+}
+
+#search .icon img{
+	vertical-align: middle;
+}
+#search .icon {
+	display: inline-block;
+}
+
+#search .search-label {
+	display: inline-block;
+	width: 85%;
+}
+#search-header {
+	  font-size: 24px;
+    color: #424242;
+    line-height: 1.25em;
+    margin-bottom: 20px;
+}
+
+.search-wrapper {
+	padding-top: 90px;
+	width: 1200px;
+  margin: 0 auto;
+}
+.column {
+  display: inline;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  vertical-align: top;
+  border: 0;
+}
+	.header {
+    width: 1170px;
+	}
+	.filter {
+		width: 200px
+	}
+	.list {
+		width : 570px
+	}
+.box {
+	border-radius: 30px;
+	border: 3px solid #537cd8;
+	padding: 10px 20px;
+	background-color: white;
+}
+.nav-element{
+	display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px;
+  position: relative;
+  box-sizing: border-box;
+}
+.nav-element.selected a {
+  font-weight: bold;
+}
+.article-box a:hover{
+	color: #537cd8;
+}
+.article-box .article-description {
+	font-size: 14px;
+  line-height: 1.75em;
+  color: #424242;
+}
+.article-stats .article-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #424242;
+  margin-bottom: 5px;
+}
+.article-stats p {
+	font-size: 12px;
+  color: #999;
+  margin-bottom: 10px;
+}
+@media (max-width: 1230px){
+	.nav-element{
+		margin-right: 20px;
+	}
+	#search {
+		width: calc(100% - 513px);
+	}
+	#logo {
+		width: 35px;
+		height: 30px;
+		overflow: hidden;
+		position: relative;
+	}
+	#logo_img {
+		position:absolute; 
+		bottom:0
+	}
+}
+
+6ac0fd

@@ -83,17 +83,17 @@ a:hover {
   margin: 0 auto;
 }
 .column {
-  display: inline;
-  float: left;
-  margin-left: 15px;
-  margin-right: 15px;
-  vertical-align: top;
-  border: 0;
+  	display: inline;
+  	float: left;
+  	margin-left: 15px;
+  	margin-right: 15px;
+  	vertical-align: top;
+  	border: 0;
 }
 	.header {
-    width: 1170px;
+    	width: 1170px;
 	}
-	.filter {
+	.filters {
 		width: 200px
 	}
 	.list {
@@ -107,32 +107,71 @@ a:hover {
 }
 .nav-element{
 	display: inline-block;
-  vertical-align: middle;
-  margin-right: 30px;
-  position: relative;
-  box-sizing: border-box;
+  	vertical-align: middle;
+  	margin-right: 30px;
+  	position: relative;
+  	box-sizing: border-box;
 }
 .nav-element.selected a {
   font-weight: bold;
+}
+.result {
+	padding: 15px 0;
+    border-top: 1px solid #537cd8;
+    min-height: 150px;
 }
 .article-box a:hover{
 	color: #537cd8;
 }
 .article-box .article-description {
 	font-size: 14px;
-  line-height: 1.75em;
-  color: #424242;
+  	line-height: 1.75em;
+  	color: #424242;
+}
+.article-stats{
+	margin-left: 0px;
 }
 .article-stats .article-title {
-  font-weight: bold;
-  font-size: 16px;
-  color: #424242;
-  margin-bottom: 5px;
+  	font-weight: bold;
+  	font-size: 16px;
+  	color: #424242;
+  	margin-bottom: 5px;
 }
 .article-stats p {
 	font-size: 12px;
-  color: #999;
-  margin-bottom: 10px;
+  	color: #999;
+  	margin-bottom: 10px;
+}
+.score-bar {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 30px;
+	border: 3px solid #537cd8;
+	padding: 4px 4px;
+	background-color: white;
+}
+.score-bar::before {
+	font-size: 12px;
+	font-weight: bold;
+	content: attr(data-label);
+	padding: 3px;
+	padding-left: 7px;
+	color: #537cd8;
+	display: flex;
+	align-items: center;
+	width: calc(var(--width,0)*1%);
+	min-width: 2rem;
+	max-width: calc(100%-1em);
+	background-color: #a7d9fd;
+	border-radius: 1em;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.article-score {
+	margin-bottom: 10px;
+	float: right;
+	width: 75%;
+  	vertical-align: middle;
 }
 @media (max-width: 1230px){
 	.nav-element{
@@ -152,5 +191,3 @@ a:hover {
 		bottom:0
 	}
 }
-
-6ac0fd

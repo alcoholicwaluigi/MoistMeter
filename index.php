@@ -14,3 +14,4 @@
 </div>
 </body>
 </html>
+style = "--width: '.$row['a_score'].'"

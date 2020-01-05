@@ -32,12 +32,12 @@
 	</script>
 </head>
 <body>
-<!--- 	
+	<!---
 <script>
 	$(document).ready(function() { 
 		$('input[name=filter_sort]').change(function(){
-    		$('form').submit();
+    		$('a[id=filter]').submit();
 		});
 	});
 </script>
---->
+-->

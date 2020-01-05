@@ -1,7 +1,7 @@
 <header id = "nav_header">
 	<nav id="navigation">
 		<nav id = "logo" class = "nav-element">
-			<a href = "index.php">
+			<a id = "filter" href = "index.php">
 				<img id = "logo_img" alt="Moist Meter logo" src="img/moist_mini.png">
 			</a>
 		</nav>
@@ -11,9 +11,9 @@
 					<img alt="Icon" src="img/lens.png">
 				</div>
 				<div class = "search-label">
-					<form action = "search.php?title=search_term" method="GET">
+					<form action = "search.php" method="GET">
 						<input name="search_term" id="primary_search_box" autocomplete="off">
-					</form>
+						<input type="hidden" name="category" value=""></form>
 				</div>
 			</div>
 		</nav>
